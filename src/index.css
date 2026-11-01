@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+:root {
+  /* Cores principais */
+  --gm-color-primary: #d28a4c;
+  --gm-color-primary-light: #dd9a5f;
+  --gm-color-primary-dark: #c47b3e;
+  --gm-color-amber: #e3a44e;
+  --gm-color-secondary: #b39463;
+
+  /* Texto */
+  --gm-color-foreground: #f5f1eb;
+  --gm-text-coral: #ea6b4f;
+  --gm-text-secondary: #cfb28c;
+  --gm-text-accent: #e89b55;
+
+  /* Superfícies e fundos */
+  --gm-color-background-elevated: #fbfbfb;
+  --gm-color-surface-card: #241612;
+  --gm-color-surface-raised: #2f1d15;
+  --gm-color-ink: #140d0a;
+  --gm-color-surface-dark: #38220f;
+  --gm-color-white: #ffffff;
+  --gm-color-black: #000000;
+
+  /* Bordas e cinzas */
+  --gm-color-border: #3f2319;
+  --gm-color-border-soft: #55321f;
+  --gm-color-gray-light: #ededed;
+
+  /* Estados */
+  --gm-color-success: #00a66c;
+  --gm-color-error: #ed1b2e;
+
+  /* Logotipos */
+  --gm-logo-orange: #ff641a;
+  --gm-logo-facebook: #3b5999;
+  --gm-logo-google-blue: #4086f4;
+  --gm-logo-google-green: #59c36a;
+  --gm-logo-google-yellow: #ffda2d;
+  --gm-logo-blue: #4175df;
+  --gm-logo-light-blue: #03a9f4;
+  --gm-logo-indigo: #283593;
+}
+
+@theme {
+  --color-primary: var(--gm-color-primary);
+  --color-primary-light: var(--gm-color-primary-light);
+  --color-primary-dark: var(--gm-color-primary-dark);
+  --color-amber: var(--gm-color-amber);
+  --color-secondary: var(--gm-color-secondary);
+
+  --color-foreground: var(--gm-color-foreground);
+  --color-text-coral: var(--gm-text-coral);
+  --color-text-secondary: var(--gm-text-secondary);
+  --color-text-accent: var(--gm-text-accent);
+
+  --color-background-elevated: var(--gm-color-background-elevated);
+  --color-surface-card: var(--gm-color-surface-card);
+  --color-surface-raised: var(--gm-color-surface-raised);
+  --color-ink: var(--gm-color-ink);
+  --color-surface-dark: var(--gm-color-surface-dark);
+
+  --color-border: var(--gm-color-border);
+  --color-border-soft: var(--gm-color-border-soft);
+  --color-gray-light: var(--gm-color-gray-light);
+
+  --color-success: var(--gm-color-success);
+  --color-error: var(--gm-color-error);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--gm-color-ink);
+  color: var(--gm-color-foreground);
+  font-family: "Roboto Mono", monospace;
+  -webkit-font-smoothing: antialiased;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+@keyframes skeleton-shimmer {
+  to { background-position-x: -200%; }
+}
+
+.skeleton-shimmer {
+  background-image: linear-gradient(90deg, var(--gm-color-surface-raised) 25%, #563826 50%, var(--gm-color-surface-raised) 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.6s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+  .skeleton-shimmer { animation: none; }
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "page": "home",
+    "profile": "mobile",
+    "run": 1,
+    "categories": {
+      "performance": 75,
+      "accessibility": 99,
+      "best-practices": 100,
+      "seo": 92
+    },
+    "lcpMs": 12877,
+    "cls": 0.001,
+    "tbtMs": 51
+  },
+  {
+    "page": "home",
+    "profile": "mobile",
+    "run": 2,
+    "categories": {
+      "performance": 75,
+      "accessibility": 99,
+      "best-practices": 100,
+      "seo": 92
+    },
+    "lcpMs": 12835,
+    "cls": 0.001,
+    "tbtMs": 63
+  },
+  {
+    "page": "home",
+    "profile": "mobile",
+    "run": 3,
+    "categories": {
+      "performance": 75,
+      "accessibility": 99,
+      "best-practices": 100,
+      "seo": 92
+    },
+    "lcpMs": 12917,
+    "cls": 0.001,
+    "tbtMs": 66
+  },
+  {
+    "page": "home",
+    "profile": "desktop",
+    "run": 1,
+    "categories": {
+      "performance": 90,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 92
+    },
+    "lcpMs": 2144,
+    "cls": 0.003,
+    "tbtMs": 0
+  },
+  {
+    "page": "home",
+    "profile": "desktop",
+    "run": 2,
+    "categories": {
+      "performance": 89,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 92
+    },
+    "lcpMs": 2259,
+    "cls": 0.003,
+    "tbtMs": 0
+  },
+  {
+    "page": "home",
+    "profile": "desktop",
+    "run": 3,
+    "categories": {
+      "performance": 89,
+      "accessibility": 97,
+      "best-practices": 100,
+      "seo": 92
+    },
+    "lcpMs": 2214,
+    "cls": 0.003,
+    "tbtMs": 0
+  },
+  {
+    "page": "nft-detail",
+    "profile": "mobile",
+    "run": 1,
+    "categories": {
+      "performance": 75,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 92
+    },
+    "lcpMs": 12827,
+    "cls": 0.001,
+    "tbtMs": 25
+  },
+  {
+    "page": "nft-detail",
+    "profile": "mobile",
+    "run": 2,
+    "categories": {
+      "performance": 75,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 92
+    },
+    "lcpMs": 12827,
+    "cls": 0.001,
+    "tbtMs": 21
+  },
+  {
+    "page": "nft-detail",
+    "profile": "mobile",
+    "run": 3,
+    "categories": {
+      "performance": 75,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 92
+    },
+    "lcpMs": 12827,
+    "cls": 0.001,
+    "tbtMs": 23
+  },
+  {
+    "page": "nft-detail",
+    "profile": "desktop",
+    "run": 1,
+    "categories": {
+      "performance": 88,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 92
+    },
+    "lcpMs": 2282,
+    "cls": 0.002,
+    "tbtMs": 0
+  },
+  {
+    "page": "nft-detail",
+    "profile": "desktop",
+    "run": 2,
+    "categories": {
+      "performance": 88,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 92
+    },
+    "lcpMs": 2280,
+    "cls": 0.002,
+    "tbtMs": 0
+  },
+  {
+    "page": "nft-detail",
+    "profile": "desktop",
+    "run": 3,
+    "categories": {
+      "performance": 90,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 92
+    },
+    "lcpMs": 2123,
+    "cls": 0.002,
+    "tbtMs": 0
+  }
+]
